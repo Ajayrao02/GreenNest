@@ -1,22 +1,25 @@
-.home-header{
+.home-header-1{
     height: 35vh;
     background: url("/images/h1.png");
     background-size: 100% 100%;
     display: flex;
     justify-content: space-around;
     opacity: 0.95;
+    
 }
 .home-head-left-c{
     margin-top: 40px;
     height: 85%;
-    width: 15%;
+    width: 30%;
     margin-left: 180px;
+    
     /* background-color: red; */
 }
 .home-head-left-c .h-p1{
     font-size: 16px;
     color: grey;
 }
+
 .home-head-left-c .h-p2{
     margin: 5px;
     display: flex;
@@ -28,6 +31,7 @@
 .home-head-left-c .h-p3{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: grey;
+    
 }
 .home-head-left-c .btnss{
     display: flex;

@@ -1,0 +1,40 @@
+.range-button-container {
+    width: 100%;
+}
+
+.hide {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 12px 14px;
+    background-color: #f5f7f5;
+    color: #1a2c1f;
+    border: 1px solid #e0e7e0;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.rangebtn {
+    padding: 6px 16px;
+    background-color: #edf5ee;
+    color: #1d3f2d;
+    border: 1px solid #d8e9de;
+    margin: 5px 5px 0 0;
+    border-radius: 8px;
+    font-size: 12px;
+}
+
+.range-button-container input[type='range'] {
+    width: 100%;
+    margin-top: 8px;
+}
+
+.range-button-container label {
+    display: block;
+    margin-top: 10px;
+    color: #2d4f3d;
+    font-weight: 600;
+}

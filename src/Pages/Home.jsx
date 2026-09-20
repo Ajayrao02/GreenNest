@@ -38,7 +38,7 @@ const Home = () => {
   ]
   return (
     <>
-      <div className="home-header" data-aos="fade-up">
+      <div className="home-header-1" data-aos="fade-up">
         <div className="home-head-left-c">
           <p className='h-p1'>PLANTS MAKE A HAPPIER HOME</p>
           <p className='h-p2'>Trees are Always Nice to us. <span>Be Nice to them.</span></p>

@@ -1,0 +1,70 @@
+.slider-wrapper {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.slider-container {
+    display: flex;
+    gap: 20px;
+
+    width: 100%;
+
+    overflow-x: auto;
+
+    scroll-behavior: smooth;
+
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.slider-container::-webkit-scrollbar {
+    display: none;
+}
+
+.slider-item {
+    flex: 0 0 calc((100% - 80px) / 5);
+    min-width: 0;
+}
+
+
+/* =========================
+   TABLET
+   3 CARDS
+========================= */
+
+@media (max-width: 1000px) {
+
+    .slider-item {
+        flex: 0 0 calc((100% - 40px) / 3);
+    }
+
+}
+
+
+/* =========================
+   MOBILE
+   2 CARDS
+========================= */
+
+@media (max-width: 700px) {
+
+    .slider-item {
+        flex: 0 0 calc((100% - 20px) / 2);
+    }
+
+}
+
+
+/* =========================
+   SMALL MOBILE
+   1 CARD
+========================= */
+
+@media (max-width: 450px) {
+
+    .slider-item {
+        flex: 0 0 100%;
+    }
+
+}

@@ -1,0 +1,393 @@
+.about-contact-info{
+    width: 50%;
+    /* background-color: rgba(245, 245, 245, 0.74); */
+    background-color: #f4fbf5;
+}
+
+.about-contact-info-item{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.about-contact-info-text-header{
+    background-color: white;
+}
+
+.about-contact-info-container{
+    display: flex;
+    
+    gap: 20px;
+    
+}
+
+
+.about-container{
+    
+    
+
+    width: 100%;
+    min-height: calc(100vh - 80px);
+    height: auto;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 40px;
+    color: #04332f;
+
+    
+}
+
+.about-service-container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.about-service-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    
+}
+
+.about-service-component{
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+    margin-top: 20px;
+    
+}
+
+.about-contact-info-item{
+    display: flex;
+    align-items: center;
+    margin-top: 22px;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(16, 179, 49, 0.096);
+    border-radius: 10px;
+    gap: 22px;
+}
+.about-contact-info-icon{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgba(18, 176, 102, 0.232);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+}
+.about-contact-info-text-header>p{
+    color:#04332f;
+}
+.about-contact-info-text-header>h2{
+    color:#04332f;
+    font-weight: 700;
+    font-size: 39px;
+}  
+.about-contact-info-text-header-p{
+    color:gray;
+} 
+
+/* =================================
+   CONTACT FORM BOX
+================================= */
+
+.about-contact-form{
+    width: 50%;
+    /* background-color: rgba(245, 245, 245, 0.74); */
+    margin-bottom: 20px;
+}
+
+.contact-form-box {
+    width: 100%;
+    max-width: 850px;
+
+   
+
+    padding: 25px 30px;
+
+    background: #f4fbf5;
+
+    border-radius: 8px;
+
+    box-sizing: border-box;
+}
+
+
+/* =================================
+   FORM HEADER
+================================= */
+
+.contact-form-header {
+    margin-bottom: 22px;
+}
+
+.contact-form-header p {
+    margin: 0 0 6px;
+
+    font-size: 10px;
+
+    font-weight: 700;
+
+    letter-spacing: 2px;
+
+    color: #287443;
+}
+
+.contact-form-header h1 {
+    margin: 0 0 7px;
+
+    font-size: 38px;
+
+    line-height: 1.2;
+
+    font-weight: 700;
+
+    color: #173b26;
+}
+
+.contact-form-header span {
+    display: block;
+
+    font-size: 13px;
+
+    color: #647066;
+}
+
+
+/* =================================
+   FORM
+================================= */
+
+.contact-form {
+    width: 100%;
+}
+
+
+/* =================================
+   NAME + EMAIL
+================================= */
+
+.contact-form-row {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 18px;
+
+    width: 100%;
+}
+
+
+/* =================================
+   INPUT GROUP
+================================= */
+
+.contact-input-group {
+    width: 100%;
+
+    display: flex;
+
+    flex-direction: column;
+
+    margin-bottom: 16px;
+}
+
+
+/* =================================
+   LABEL
+================================= */
+
+.contact-input-group label {
+    margin-bottom: 7px;
+
+    font-size: 18px;
+
+    font-weight: 600;
+
+    color: #273d2d;
+}
+
+.contact-input-group label b {
+    color: #dc3e3e;
+}
+
+
+/* =================================
+   INPUT / SELECT / TEXTAREA
+================================= */
+
+.contact-input-group input,
+.contact-input-group select,
+.contact-input-group textarea {
+    width: 100%;
+
+    padding: 10px 12px;
+
+    border: 1px solid #d9e2dc;
+
+    border-radius: 5px;
+
+    outline: none;
+
+    background: #ffffff;
+
+    color: #34433a;
+
+    font-family: inherit;
+
+    font-size: 12px;
+
+    box-sizing: border-box;
+
+    transition: all 0.2s ease;
+}
+
+
+/* Input & Select Height */
+
+.contact-input-group input,
+.contact-input-group select {
+    height: 40px;
+}
+
+
+/* Textarea */
+
+.contact-input-group textarea {
+    height: 90px;
+
+    resize: vertical;
+
+    min-height: 70px;
+}
+
+
+/* Placeholder */
+
+.contact-input-group input::placeholder,
+.contact-input-group textarea::placeholder {
+    color: #9aa39e;
+}
+
+
+/* =================================
+   FOCUS
+================================= */
+
+.contact-input-group input:focus,
+.contact-input-group select:focus,
+.contact-input-group textarea:focus {
+
+    border-color: #238344;
+
+    box-shadow:
+        0 0 0 2px rgba(35, 131, 68, 0.08);
+}
+
+
+/* =================================
+   SUBMIT BUTTON
+================================= */
+
+.contact-submit-btn {
+    display: inline-flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 8px;
+
+    padding: 10px 20px;
+
+    border: none;
+
+    border-radius: 5px;
+
+    background: #087536;
+
+    color: #ffffff;
+
+    font-size: 12px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: all 0.2s ease;
+}
+
+
+/* Button Hover */
+
+.contact-submit-btn:hover {
+    background: #075e2c;
+
+    transform: translateY(-1px);
+}
+
+
+/* Button Icon */
+
+.contact-submit-btn span {
+    font-size: 13px;
+}
+
+
+/* =================================
+   TABLET
+================================= */
+
+@media (max-width: 650px) {
+
+    .contact-form-box {
+        padding: 22px 20px;
+    }
+
+
+    .contact-form-row {
+        grid-template-columns: 1fr;
+
+        gap: 0;
+    }
+
+
+    .contact-form-header h2 {
+        font-size: 24px;
+    }
+
+}
+
+
+/* =================================
+   MOBILE
+================================= */
+
+@media (max-width: 400px) {
+
+    .contact-form-box {
+        padding: 20px 15px;
+
+        margin: 20px auto;
+    }
+
+
+    .contact-form-header h2 {
+        font-size: 21px;
+    }
+
+
+    .contact-form-header span {
+        font-size: 12px;
+    }
+
+
+    .contact-submit-btn {
+        width: 100%;
+    }
+
+}
