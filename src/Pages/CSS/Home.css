@@ -1,26 +1,28 @@
-.home-header-1{
+.home-header-1 {
     height: 35vh;
     background: url("/images/h1.png");
     background-size: 100% 100%;
     display: flex;
     justify-content: space-around;
     opacity: 0.95;
-    
+
 }
-.home-head-left-c{
+
+.home-head-left-c {
     margin-top: 40px;
     height: 85%;
     width: 30%;
     margin-left: 180px;
-    
+
     /* background-color: red; */
 }
-.home-head-left-c .h-p1{
+
+.home-head-left-c .h-p1 {
     font-size: 16px;
     color: grey;
 }
 
-.home-head-left-c .h-p2{
+.home-head-left-c .h-p2 {
     margin: 5px;
     display: flex;
     flex-direction: column;
@@ -28,41 +30,49 @@
     font-weight: 600;
     color: #04332f;
 }
-.home-head-left-c .h-p3{
+
+.home-head-left-c .h-p3 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: grey;
-    
+
 }
-.home-head-left-c .btnss{
+
+.home-head-left-c .btnss {
     display: flex;
     gap: 10px;
     margin-top: 10px;
 }
-.home-head-left-c .h-btn1{
+
+.home-head-left-c .h-btn1 {
     padding: 12px;
     background-color: #044b24;
 }
-.home-head-left-c .h-btn1 a{
+
+.home-head-left-c .h-btn1 a {
     color: white;
 }
-.home-head-left-c .h-btn2{
+
+.home-head-left-c .h-btn2 {
     padding: 12px;
     background-color: transparent;
     border: 1px solid green;
     color: green;
 }
-.home-head-middle{
+
+.home-head-middle {
     height: 100%;
     /* background-color: red; */
     width: 20%;
     margin-right: 230px;
 }
-.home-head-middle img{
+
+.home-head-middle img {
     height: 100%;
     /* opacity: 0.8; */
 
 }
-.home-head-right .right-box{
+
+.home-head-right .right-box {
     margin-top: 30px;
     margin-right: 150px;
     /* height: 200px;
@@ -71,7 +81,8 @@
     border-radius: 50%;
     opacity: 0.8;
 }
-.home-about{
+
+.home-about {
     height: 35vh;
     background-color: #e8f8ef;
     /* width: 80%; */
@@ -81,86 +92,109 @@
     /* gap: 10px; */
     margin-bottom: 20px;
 }
-.home-about img{
+
+.home-about img {
     height: 100%;
 }
-.home-about .home-about-left{
+
+.home-about .home-about-left {
     height: 100%;
     width: 30%;
     /* background-color: red; */
 }
-.home-about .home-about-right{
+
+.home-about .home-about-right {
     height: 100%;
     width: 30%;
     /* background-color: rgb(9, 180, 61); */
 }
-.home-about .home-about-left-c{
+
+.home-about .home-about-left-c {
     margin-top: 20px;
     /* background-color: #e8f8ef; */
     width: 60%;
     height: 100%;
 }
-.home-about .home-about-left-c .h-p1{
+
+.home-about .home-about-left-c .h-p1 {
     font-size: 20px;
     color: #044b24;
     font-weight: 600;
 }
-.home-about .home-about-left-c .h-p2{
+
+.home-about .home-about-left-c .h-p2 {
     font-size: 40px;
     color: #044b24;
     font-weight: 600;
 }
-.home-about .home-about-left-c .h-p3{
+
+.home-about .home-about-left-c .h-p3 {
     font-size: 21px;
     color: #044b24;
     /* font-weight: 600; */
 }
-.home-about .home-about-left-c .h-btn{
+
+.home-about .home-about-left-c .h-btn {
     margin-top: 5px;
     /* display: ; */
     justify-content: center;
 }
-.home-about .home-about-left-c .h-btn a{
+
+.home-about .home-about-left-c .h-btn a {
     color: white;
 }
-.home-about-right{
+
+.home-about-right {
+    position: relative;
+    width: 30%;
+    height: 100%;
+    /* background-color: rgb(9, 180, 61); */
+}
+
+.home-about-right {
     position: relative;
     width: 100%;
     margin-right: 20px;
 }
-.home-about-right img{
-    /* width: 1000%;
-    height: 100%; */
+
+.home-about-right img {
     display: block;
     object-fit: cover;
     border-radius: 20px;
- 
-    /* margin-right: 20px; */
 }
-.home-about-right .har-c{
+
+.home-about-right .har-c {
     position: absolute;
     background-color: rgb(9, 78, 6);
-    height: 55%;
-    width: 45%;
+    box-sizing: border-box;
+    height: 70%;
+    width: 55%;
     right: 0;
     bottom: 0;
-    padding: 20px;
+    padding: 12px;
     opacity: 0.8;
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
-.home-about-right .har-c p{
+
+.home-about-right .har-c p {
     margin: 4px 0;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 38px;
+    font-size: clamp(24px, 2vw, 32px);
+    line-height: 1.05;
     font-weight: 600;
     text-align: center;
 }
-.home-about-right .har-icon{
-    font-size: 20px;
-    margin-bottom: 15px;
+
+.home-about-right .har-icon {
+    font-size: 18px;
+    margin-bottom: 6px;
     text-align: center;
 }
+
 .home-quote {
     /* margin-top: 150px; */
     margin-left: 40px;
@@ -193,7 +227,8 @@
     transform: rotate(-12deg);
     margin: 8px 0 0 3px;
 }
-.category-card-home-outer{
+
+.category-card-home-outer {
     width: 90%;
     margin: 30px auto;
     display: flex;
@@ -202,32 +237,37 @@
     justify-content: space-evenly;
     gap: 15px;
 }
-.ppsection{
+
+.ppsection {
     text-align: center;
 }
-.ppsection p{
+
+.ppsection p {
     font-size: 35px;
     font-weight: 800;
     color: #04332f;
     /* text-align: center; */
 }
-.ppsection span{
+
+.ppsection span {
     font-size: 20px;
     color: grey;
     /* text-align: center; */
 }
+
 /* .category-card-home-outer{
     width: 100%;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
 } */
-.order-p-top{
+.order-p-top {
     font-size: 30px;
     color: #044b24;
     font-weight: 900;
     text-align: center;
 }
-.order-outer{
+
+.order-outer {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -237,7 +277,8 @@
 
     /* background-color: red; */
 }
-.order-card1{
+
+.order-card1 {
     margin-top: 20px;
     display: flex;
     /* flex-direction: column; */
@@ -247,7 +288,8 @@
     position: relative;
 
 }
-.order-card1 .icon{
+
+.order-card1 .icon {
     height: 80px;
     width: 120px;
     background-color: rgb(226, 240, 232);
@@ -258,16 +300,19 @@
     font-size: 29px;
     /* margin-bottom: 20px; */
 }
-.order-card1 p{
+
+.order-card1 p {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.order-card1 .icon{
+
+.order-card1 .icon {
     position: relative;
     top: -15px;
 }
-.order-card1 .icon span{
+
+.order-card1 .icon span {
     position: absolute;
     font-size: 20px;
     top: -14px;
@@ -280,12 +325,14 @@
     justify-content: center;
     align-items: center;
 }
-.order-card1 .order-p{
+
+.order-card1 .order-p {
     font-size: 19px;
     color: #044b24;
     font-weight: 900;
 }
-.order-card1 .dots{
+
+.order-card1 .dots {
     height: 50px;
     width: 100px;
     /* background-color: red; */
@@ -293,15 +340,18 @@
     align-items: center;
     justify-content: center;
 }
-.order-card1 .order-p2{
+
+.order-card1 .order-p2 {
     font-size: 16px;
     color: #044b24;
     /* font-weight: 500; */
 }
-.shop-category{
+
+.shop-category {
     height: 25vh;
 }
-.shop-category .shop-p{
+
+.shop-category .shop-p {
     font-size: 30px;
     color: #044b24;
     font-weight: 900;
@@ -310,17 +360,177 @@
     margin-top: 10px;
 
 }
-a{
+
+a {
     text-decoration: none;
 }
 
 
 
-.home-plants-page-slider{
+.home-plants-page-slider {
     display: flex;
     gap: 20px;
     flex-direction: column;
     background-color: rgba(15, 70, 15, 0.458);
     padding: 20px;
+    margin-bottom: 20px;
     text-align: center;
+}
+
+@media (max-width: 1000px) {
+    .home-header-1 {
+        min-height: 35vh;
+        height: auto;
+        padding: 20px;
+    }
+
+    .home-head-left-c {
+        width: 40%;
+        margin-left: 0;
+    }
+
+    .home-head-middle {
+        width: 25%;
+        margin-right: 20px;
+    }
+
+    .home-head-right .right-box {
+        margin-right: 0;
+    }
+
+    .home-about {
+        height: auto;
+        min-height: 35vh;
+        align-items: stretch;
+    }
+
+    .home-about>img {
+        width: 30%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .home-about .home-about-left {
+        width: 35%;
+    }
+
+    .home-about .home-about-right {
+        width: 35%;
+    }
+
+    .home-about .home-about-left-c {
+        width: 90%;
+    }
+
+    .home-about .home-about-left-c .h-p2 {
+        font-size: clamp(28px, 4vw, 40px);
+    }
+
+    .home-about .home-about-left-c .h-p3 {
+        font-size: clamp(16px, 2vw, 21px);
+    }
+
+    .order-outer {
+        height: auto;
+        padding: 30px 15px;
+    }
+
+    .order-card1 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .shop-category {
+        height: auto;
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 640px) {
+    .home-header-1 {
+        display: block;
+        padding: 20px 16px;
+        text-align: center;
+    }
+
+    .home-head-left-c {
+        width: 100%;
+        margin: 0;
+    }
+
+    .home-head-left-c .h-p2 {
+        font-size: 30px;
+    }
+
+    .home-head-left-c .btnss {
+        justify-content: center;
+    }
+
+    .home-head-middle {
+        display: none;
+    }
+
+    .home-head-right .right-box {
+        margin: 15px auto 0;
+        width: fit-content;
+    }
+
+    .category-card-home-outer {
+        width: 100%;
+        margin: 20px auto;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+
+    .home-plants-page-slider {
+        padding: 16px 10px;
+    }
+
+    .home-plants-page-slider h1 {
+        font-size: 30px;
+    }
+
+    .home-about {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px 16px;
+        box-sizing: border-box;
+    }
+
+    .home-about>img,
+    .home-about .home-about-left,
+    .home-about .home-about-right {
+        width: 100%;
+    }
+
+    .home-about>img {
+        max-height: 240px;
+    }
+
+    .home-about .home-about-left-c {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .home-about .home-about-left-c .h-p2 {
+        font-size: 32px;
+    }
+
+    .home-about-right {
+        min-height: 240px;
+        margin: 20px 0 0;
+    }
+
+    .home-about-right img {
+        width: 100%;
+        height: 240px;
+    }
+
+    .home-about-right .har-c {
+        width: 55%;
+    }
+
+    .order-card1 .dots {
+        display: none;
+    }
 }

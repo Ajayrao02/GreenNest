@@ -1,4 +1,4 @@
-.about-header{
+.about-header {
     height: 35vh;
     background: url("/images/a1.jpeg");
     background-size: 100% 100%;
@@ -6,44 +6,53 @@
     /* justify-content: space-around; */
     /* opacity: 0.95; */
 }
-.about-header .about-c{
+
+.about-header .about-c {
     height: 250px;
     width: 350px;
     /* background-color: red; */
     margin-top: 20px;
     margin-left: 200px;
 }
-.about-content{
+
+.about-content {
     display: flex;
-    
+
 }
-.a-p1{
+
+.a-p1 {
     font-size: 20px;
     color: #04332f;
     font-weight: 900;
 
 }
-.a-p2{
+
+.a-p2 {
     font-size: 40px;
     color: #04332f;
     font-weight: 900;
 }
-.a-p3{
+
+.a-p3 {
     font-size: 18px;
     color: grey;
 }
-.a-btn{
+
+.a-btn {
     margin-top: 10px;
     padding: 10px;
 }
-.a-btn a{
+
+.a-btn a {
     color: white;
 
 }
-.about-choose{
+
+.about-choose {
     height: 33vh;
 }
-.ac-p1{
+
+.ac-p1 {
     margin-top: 10px;
     margin-bottom: 10px;
     text-align: center;
@@ -51,18 +60,21 @@
     color: #04332f;
     font-weight: 900;
 }
-.ac-p2{
+
+.ac-p2 {
     margin-bottom: 10px;
     text-align: center;
     font-size: 19px;
     color: #04332f;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.ab1{
+
+.ab1 {
     display: flex;
     justify-content: space-around;
 }
-.a-icon{
+
+.a-icon {
     height: 200px;
     width: 300px;
     border-radius: 20px;
@@ -72,7 +84,8 @@
     align-items: center;
     justify-content: center;
 }
-.icon-a{
+
+.icon-a {
     font-size: 30px;
     color: green;
     height: 70px;
@@ -83,71 +96,84 @@
     border-radius: 50%;
     background-color: rgb(212, 243, 165);
 }
-.icon-text{
+
+.icon-text {
     margin-top: 5px;
     font-size: 20px;
     color: #04332f;
     font-weight: 900;
 }
-.icon-p{
+
+.icon-p {
     margin-top: 5px;
 
     text-align: center;
-    font-family:Geneva;
+    font-family: Geneva;
     color: grey;
     font-size: 19px;
 }
-.our-story{
+
+.our-story {
     height: 38vh;
     background: url("/images/ab.jpeg");
     background-size: 100% 100%;
     margin-bottom: 10px;
 }
-.our-story-content{
+
+.our-story-content {
     height: 100%;
     width: 350px;
     /* background-color: red; */
     margin-left: 200px;
     margin-top: 20px;
     display: flex;
-    
+
 }
-.our-story-content .our-s{
+
+.our-story-content .our-s {
     display: flex;
     /* background-color: aqua; */
     height: 80%;
     /* margin-top: 20px; */
 }
-.our-story-content .o-p1{
+
+.our-story-content .o-p1 {
     margin-top: 30px;
     font-size: 25px;
     color: #04332f;
 }
-.our-story-content .o-p2{
+
+.our-story-content .o-p2 {
     font-size: 32px;
     color: #04332f;
     font-weight: 800;
 }
-.our-story-content .o-p3{
+
+.our-story-content .o-p3 {
     color: grey;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.our-story-content .o-p4{
+
+.our-story-content .o-p4 {
     color: grey;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.our-story-tell{
+
+.our-story-tell {
     width: 450px;
     /* background-color: red; */
 }
-.o-btn{
+
+.o-btn {
     margin-top: 10px;
     padding: 10px;
     width: 200px;
 }
-.o-btn a{
+
+.o-btn a {
     color: white;
 }
+
 .our-quote {
     /* margin-top: 150px; */
     margin-left: 340px;
@@ -162,6 +188,7 @@
 .our-quote span {
     display: block;
 }
+
 .our-quote-s {
     /* margin-top: 150px; */
     margin-left: 580px;
@@ -176,10 +203,12 @@
 .our-quote- span {
     display: block;
 }
-.our-mission{
+
+.our-mission {
     height: 33vh;
 }
-.om-p1{
+
+.om-p1 {
     margin-top: 10px;
     margin-bottom: 10px;
     text-align: center;
@@ -187,18 +216,21 @@
     color: #04332f;
     font-weight: 900;
 }
-.om-p2{
+
+.om-p2 {
     margin-bottom: 10px;
     text-align: center;
     font-size: 19px;
     color: #04332f;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.om1{
+
+.om1 {
     display: flex;
     justify-content: space-around;
 }
-.om-icon{
+
+.om-icon {
     height: 100px;
     width: 300px;
     border-radius: 20px;
@@ -210,7 +242,7 @@
     justify-content: center;
 }
 
-.icon-om{
+.icon-om {
     font-size: 30px;
     color: green;
     height: 100px;
@@ -221,26 +253,84 @@
     border-radius: 50%;
     background-color: rgb(212, 243, 165);
 }
-.icon-om img{
+
+.icon-om img {
     width: 400px
 }
-.icon-text-om{
+
+.icon-text-om {
     /* background-color: white; */
     margin-top: 5px;
     font-size: 20px;
     color: #04332f;
     font-weight: 900;
 }
-.om-text{
+
+.om-text {
     height: 100px;
     width: 200px;
     background-color: red;
 }
-.icon-p-om{
+
+.icon-p-om {
     margin-top: 5px;
 
     text-align: center;
-    font-family:Geneva;
+    font-family: Geneva;
     color: grey;
     font-size: 19px;
+}
+
+@media (max-width: 700px) {
+    .about-header .about-c {
+        width: auto;
+        margin: 0;
+        padding: 35px 20px;
+    }
+
+    .about-content,
+    .ab1,
+    .om1 {
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+
+    .about-choose,
+    .our-mission {
+        height: auto;
+        padding: 20px 16px;
+    }
+
+    .a-p2,
+    .ac-p1,
+    .om-p1 {
+        font-size: 30px;
+    }
+
+    .a-icon,
+    .om-icon {
+        width: min(300px, 100%);
+    }
+
+    .our-story {
+        height: auto;
+        min-height: 38vh;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .our-story-content,
+    .our-story-tell {
+        width: 100%;
+        margin: 0;
+    }
+
+    .our-story-content .our-s {
+        width: 100%;
+    }
+
+    .our-quote,
+    .our-quote-s {
+        display: none;
+    }
 }

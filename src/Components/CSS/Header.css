@@ -49,7 +49,7 @@ img {
 }
 
 .header-outer .header-nav ul li {
-    font-size: 18px;
+    font-size: 20px;
     list-style: none;
     white-space: nowrap;
 }
@@ -118,11 +118,13 @@ img {
     left: 25px;
     bottom: 26px;
 }
-.categ{
+
+.categ {
     display: flex;
     justify-content: center;
 }
-.categ .btns{
+
+.categ .btns {
     display: flex;
     justify-content: center;
     width: min(250px, 100%);
@@ -164,7 +166,7 @@ img {
     }
 
     .header-outer .header-nav ul li {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .search-icon {

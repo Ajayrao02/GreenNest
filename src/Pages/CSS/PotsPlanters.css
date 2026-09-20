@@ -15,8 +15,7 @@
     box-shadow: 0 18px 45px rgba(120, 86, 38, 0.08);
     padding: 18px 14px;
     height: fit-content;
-    position: sticky;
-    top: 20px;
+    position: relative;
 }
 
 .pots-planters-cards {
@@ -32,7 +31,7 @@
     background: rgba(255, 255, 255, 0.45);
     box-shadow: inset 0 0 0 1px rgba(145, 92, 31, 0.06), 0 22px 40px rgba(114, 82, 46, 0.08);
     position: relative;
-    overflow-y: auto;
+    overflow: visible;
 }
 
 .pots-planter-card-item {
