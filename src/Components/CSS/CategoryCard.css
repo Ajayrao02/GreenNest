@@ -20,7 +20,7 @@
     width: 100%;
     background-color: rgb(205, 252, 230);
     border-radius:10px 10px 0px 0px;
-    object-fit: cover;
+    /* object-fit: cover; */
 }
 .category-card-text{
     height: 10%;
