@@ -1,0 +1,16 @@
+const seedsData = [
+  { id: 1, text: "Sunflower Seeds", imageUrl: "/images/seeds/sunflower-seeds-image.jpg", price: "₹99" },
+  { id: 2, text: "Tomato Seeds", imageUrl: "/images/seeds/tomato-seeds-image.jpg", price: "₹79" },
+  { id: 3, text: "Basil Seeds", imageUrl: "/images/seeds/basil-seeds-image.jpg", price: "₹89" },
+  { id: 4, text: "Carrot Seeds", imageUrl: "/images/seeds/carrot-seeds-image.jpg", price: "₹69" },
+  { id: 5, text: "Lettuce Seeds", imageUrl: "/images/seeds/lettuce-seeds-image.jpg", price: "₹79" },
+  { id: 6, text: "Pepper Seeds", imageUrl: "/images/seeds/pepper-seeds-image.jpg", price: "₹109" },
+  { id: 7, text: "Cucumber Seeds", imageUrl: "/images/seeds/cucumber-seeds-image.jpg", price: "₹69" },
+  { id: 8, text: "Spinach Seeds", imageUrl: "/images/seeds/spinach-seeds-image.jpg", price: "₹59" },
+  { id: 9, text: "Radish Seeds", imageUrl: "/images/seeds/radish-seeds-image.jpg", price: "₹59" },
+  { id: 10, text: "Pumpkin Seeds", imageUrl: "/images/seeds/pumpkin-seeds-image.jpg", price: "₹89" },
+  { id: 11, text: "Zucchini Seeds", imageUrl: "/images/seeds/zucchini-seeds-image.jpg", price: "₹99" },
+  { id: 12, text: "Watermelon Seeds", imageUrl: "/images/seeds/watermelon-seeds-image.jpg", price: "₹89" },
+  { id: 13, text: "Strawberry Seeds", imageUrl: "/images/seeds/strawberry-seeds-image.jpg", price: "₹129" },
+  { id: 14, text: "Blueberry Seeds", imageUrl: "/images/seeds/blueberry-seeds-image.jpg", price: "₹149" },
+];

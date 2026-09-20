@@ -53,11 +53,24 @@ button:hover{
     cursor: pointer;
 }
 .badge{
-    position: absolute;
-    top: 12px;
-    right: 12px;
-    /* height: 38px;
-    width: 38px; */
+      position: absolute;
+    top: 8px;
+    right: 8px;
+    height: 38px;
+    width: 38px;
     font-size: 20px;
+    background-color: green;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    font-size: large;
 
+}
+
+.badge:hover{
+    cursor: pointer;
+    font-size: 25px;
+    color: red
 }

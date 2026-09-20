@@ -5,80 +5,9 @@ import Filters from '../Components/Filters'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 
-const potsPlantersData = [
-    {
-        id: 1,
-        text: "Ceramic Pot",
-        imageUrl: "ceramic-pot.jpg",
-        price: "₹499",
-    },
-    {
-        id: 2,
-        text: "Terracotta Planter",
-        imageUrl: "terracotta-planter.jpg",
-        price: "₹349",
-    },
-    {
-        id: 3,
-        text: "Clay Pot",
-        imageUrl: "clay-pot.jpg",
-        price: "₹299",
-    },
-    {
-        id: 4,
-        text: "Glazed Pot",
-        imageUrl: "glazed-pot.jpg",
-        price: "₹399",
-    },
-    {
-        id: 5,
-        text: "Mud Pot",
-        imageUrl: "mud-pot.jpg",
-        price: "₹249",
-    },
-    {
-        id: 6,
-        text: "Stone Pot",
-        imageUrl: "stone-pot.jpg",
-        price: "₹449",
-    },
-    {
-        id: 7,
-        text: "Wooden Pot",
-        imageUrl: "wooden-pot.jpg",
-        price: "₹599",
-    },
-    {
-        id: 8,
-        text: "Plastic Planter",
-        imageUrl: "plastic-planter.jpg",
-        price: "₹199",
-    },
-    {
-        id: 9,
-        text: "Metal Pot",
-        imageUrl: "metal-pot.jpg",
-        price: "₹699",
-    },
-    {
-        id: 10,
-        text: "Glass Pot",
-        imageUrl: "glass-pot.jpg",
-        price: "₹399",
-    },
-    {
-        id: 11,
-        text: "Ceramic Planter",
-        imageUrl: "ceramic-planter.jpg",
-        price: "₹499",
-    },
-    {
-        id: 12,
-        text: "Terracotta Planter",
-        imageUrl: "terracotta-planter-2.jpg",
-        price: "₹349",
-    },
-];
+import { potsPlantersData } from '../data/products'
+
+
 const products = [
     {
       id: 1,

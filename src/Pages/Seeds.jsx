@@ -5,22 +5,7 @@ import Filters from '../Components/Filters'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 
-const seedsData = [
-  { id: 1, text: "Sunflower Seeds", imageUrl: "/images/snake-plant.jpg", price: "₹99" },
-  { id: 2, text: "Tomato Seeds", imageUrl: "/images/monstera.jpg", price: "₹79" },
-  { id: 3, text: "Basil Seeds", imageUrl: "/images/pothos.jpg", price: "₹89" },
-  { id: 4, text: "Carrot Seeds", imageUrl: "/images/peace-lily.jpg", price: "₹69" },
-  { id: 5, text: "Lettuce Seeds", imageUrl: "/images/rubber-plant.jpg", price: "₹79" },
-  { id: 6, text: "Pepper Seeds", imageUrl: "/images/philodendron.jpg", price: "₹109" },
-  { id: 7, text: "Cucumber Seeds", imageUrl: "/images/aloe-vera.jpg", price: "₹69" },
-  { id: 8, text: "Spinach Seeds", imageUrl: "/images/dracaena.jpg", price: "₹79" },
-  { id: 9, text: "Radish Seeds", imageUrl: "/images/fiddle-leaf-fig.jpg", price: "₹59" },
-  { id: 10, text: "Pumpkin Seeds", imageUrl: "/images/pothos-2.jpg", price: "₹89" },
-  { id: 11, text: "Zucchini Seeds", imageUrl: "/images/rubber-plant-2.jpg", price: "₹99" },
-  { id: 12, text: "Watermelon Seeds", imageUrl: "/images/zz-plant.jpg", price: "₹89" },
-  { id: 13, text: "Strawberry Seeds", imageUrl: "/images/monstera.jpg", price: "₹129" },
-  { id: 14, text: "Blueberry Seeds", imageUrl: "/images/snake-plant.jpg", price: "₹149" },
-];
+import { seedsData } from '../data/products'
 
 /*
     {
