@@ -60,9 +60,21 @@
     .pots-planters-filters {
         position: static;
         flex-basis: auto;
+        width: 100%;
     }
 
     .pots-planters-cards {
         padding: 14px;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+}
+
+@media (max-width: 560px) {
+    .pots-planters-container {
+        padding: 14px 10px 20px;
+    }
+
+    .pots-planters-cards {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
     }
 }

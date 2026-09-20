@@ -12,6 +12,9 @@ import ShopCategory from '../Components/ShopCategory';
 import Testinomials from '../Components/Testinomials'
 import { NavLink } from 'react-router-dom';
 import HappyCustomers from '../Components/HappyCustomers'
+import SliderCard from '../Components/SliderCard';
+import { plantData } from '../data/products'
+
 const Home = () => {
   useEffect(() => {
     Aos.init({
@@ -80,6 +83,16 @@ const Home = () => {
         <button className='btns'><NavLink to="/plants">View All Products</NavLink> <FaLongArrowAltRight /></button>
       </div>
       {/* Category card end */}
+      {/* plants slider start */}
+
+      <div className="home-plants-page-slider" data-aos="fade-up">
+      <h1>Popular Plants</h1>
+
+      <SliderCard data={plantData} CardComponent={CategoryCard} />
+    </div>
+
+
+      {/* plants slider end */}
       {/* about us start  */}
       <div className="home-about" data-aos="fade-right">
         <img src="/images/h2.png" alt="" />

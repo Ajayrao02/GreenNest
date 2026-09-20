@@ -313,3 +313,14 @@
 a{
     text-decoration: none;
 }
+
+
+
+.home-plants-page-slider{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    background-color: rgba(15, 70, 15, 0.458);
+    padding: 20px;
+    text-align: center;
+}
