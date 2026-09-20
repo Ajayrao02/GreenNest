@@ -1,0 +1,19 @@
+.shop-category-card-home-outer{
+    display: flex;
+    justify-content: space-evenly;
+    /* height: 20vh; */
+    /* width: 100%; */
+    /* background-color: red; */
+    /* border: 1px solid; */
+    /* margin-bottom: 20px; */
+}
+.shopcategory-card-image img{
+    height: 110px;
+    border-radius: 50%;
+}
+.shopcategory-card-text {
+    font-size: 20px;
+    text-align: center;
+    color: #1a5c43;
+    margin-bottom: 20px;
+}

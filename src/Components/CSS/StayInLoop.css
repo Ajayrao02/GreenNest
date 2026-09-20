@@ -1,0 +1,81 @@
+.stay-loop {
+    width: 100%;
+    min-height: 135px;
+    margin: 35px auto;
+    padding: 25px 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    box-sizing: border-box;
+    /* border-radius: 22px; */
+    background: url('/images/stayloop.jpeg') center/cover no-repeat;
+}
+
+.stay-loop-content h2 {
+    margin: 0 0 6px;
+    color: #064d26;
+    font-size: 34px;
+}
+
+.stay-loop-content p {
+    margin: 0;
+    color: #05310f;
+    font-size: 26px;
+}
+
+.stay-loop-form {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.stay-loop .stay{
+    margin-left: 120px;
+}
+
+.stay-loop-form input {
+    width: 300px;
+    padding: 16px 20px;
+    border: 0;
+    border-radius: 12px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.stay-loop-form button {
+    padding: 16px 28px;
+    border: 0;
+    border-radius: 12px;
+    background-color: #00652d;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+@media (max-width: 800px) {
+    .stay-loop {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 18px;
+    }
+
+    .stay-loop-content h2 {
+        font-size: 28px;
+    }
+
+    .stay-loop-form input {
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    .stay-loop {
+        width: 94%;
+        padding: 22px 20px;
+    }
+
+    .stay-loop-form {
+        flex-direction: column;
+        align-items: stretch;
+    }
+}
