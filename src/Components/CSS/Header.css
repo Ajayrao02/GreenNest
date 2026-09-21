@@ -24,7 +24,7 @@
 
 .header-outer span {
     margin-top: 10px;
-    font-size: 30px;
+    font-size: 40px;
     color: #04332f;
     font-weight: 900;
 }
@@ -56,6 +56,13 @@ img {
 
 .header-outer a {
     text-decoration: none;
+    font-size: 30px;
+    color: #04332f;
+}
+
+.header-outer a:hover {
+    color: rgb(197, 99, 99);
+    text-decoration: underline;
 }
 
 .search-icon {

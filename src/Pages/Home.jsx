@@ -14,6 +14,8 @@ import { NavLink } from 'react-router-dom';
 import HappyCustomers from '../Components/HappyCustomers'
 import SliderCard from '../Components/SliderCard';
 import { plantData } from '../data/products'
+import { potsPlantersData } from '../data/products'
+import {seedsData} from '../data/products'
 
 const Home = () => {
   useEffect(() => {
@@ -119,6 +121,12 @@ const Home = () => {
       </div>
       {/* about us end  */}
 
+      <div className="home-plants-page-slider" data-aos="fade-up">
+      <h1>Popular Planters</h1>
+
+      <SliderCard data={potsPlantersData} CardComponent={CategoryCard} />
+    </div>
+
       {/* how to order start */}
       <p className='order-p-top'>How to Order ?</p>
       <div className="order-outer" data-aos="fade-up">
@@ -180,6 +188,12 @@ const Home = () => {
         </div>
       </div>
       {/* shop category end  */}
+
+      <div className="home-plants-page-slider" data-aos="fade-up">
+      <h1>Popular Seeds</h1>
+
+      <SliderCard data={seedsData} CardComponent={CategoryCard} />
+    </div>
       <div data-aos="fade-left">
         <Testinomials />
       </div>
